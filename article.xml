@@ -48,7 +48,7 @@
 	    <title level="j">The Journal of Philosophy</title>
 	    <biblScope unit="volume">83</biblScope>
 	    <biblScope unit="number">5</biblScope>
-	    <biblScope unit="pp">291 &#8722; 295</biblScope>
+	    <biblScope unit="pp">291&#8722;295</biblScope>
 	    <ref target="https://www.jstor.org/stable/2026143">https://doi.org/10.2307/2026143</ref>
 	  </bibl>
 	  <bibl xml:id="thomasnagel">
@@ -58,16 +58,17 @@
 	    <date>1974</date>
 	    <biblScope unit="volume">83</biblScope>
 	    <biblScope unit="number">4</biblScope>
-	    <biblScope unit="pp">435 &#8722; 450</biblScope>
+	    <biblScope unit="pp">435&#8722;450</biblScope>
 	    <ref target="https://www.jstor.org/stable/2183914">https://doi.org/10.2307/2183914</ref>
 	  </bibl>
 	  <bibl xml:id="derkpereboom1994">
 	    <author>Pereboom, Derk</author>
 	    <title level="a">Bats, scientists, and the limitations of introspection</title>
 	    <title level="j">Philosophy and phenomenological research</title>
+	    <date>1994</date>
 	    <biblScope unit="volume">54</biblScope>
 	    <biblScope unit="number">2</biblScope>
-	    <biblScope unit="pp">315 &#8722; 329</biblScope>
+	    <biblScope unit="pp">315&#8722;329</biblScope>
 	    <ref target="https://www.jstor.org/stable/2108491">https://doi.org/10.2307/2108491</ref>
 	  </bibl>
 	</listBibl>
