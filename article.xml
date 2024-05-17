@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="root">
+  <teiHeader xml:id="header">
+    <fileDesc xml:id="md">
+      <titleStmt xml:id="titles">
+        <title type="main">The Knowledge argument</title>
+        <title type="sub">On the color of ripe tomatoes</title>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart>
+        <title type="main">The Knowledge argument</title>
+        <title type="sub">On the color of ripe tomatoes</title>
+        </titlePart>
+      </docTitle>
+      <docAuthor>
+        <name>Sigfrid Lundberg</name>
+        <address>
+          <addrLine>sigfrid@sigfrid-lundberg.se</addrLine>
+          <addrLine><ref target="https://sigfrid-lundberg.se">https://sigfrid-lundberg.se</ref></addrLine>
+        </address>
+      </docAuthor>
+      <!-- div type="abstract">
+	<p>
+	</p>
+      </div -->
+    </front>
+    <body>
+      <div>
+	<head>Introduction</head>
+      </div>
+    </body>
+  </text>
+</TEI>
