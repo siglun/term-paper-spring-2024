@@ -19,8 +19,7 @@
     <front>
       <docTitle>
         <titlePart>
-        <title type="main">The Knowledge argument</title>
-        <title type="sub">On the color of ripe tomatoes</title>
+          <title type="main">The knowledge argument and the colour of ripe tomatoes</title>
         </titlePart>
       </docTitle>
       <docAuthor>
@@ -30,15 +29,28 @@
           <addrLine><ref target="https://sigfrid-lundberg.se">https://sigfrid-lundberg.se</ref></addrLine>
         </address>
       </docAuthor>
-      <!-- div type="abstract">
-	<p>
+      <div type="abstract">
+	<p>The
 	</p>
-      </div -->
+      </div>
     </front>
     <body>
       <div>
 	<head>Introduction</head>
       </div>
+      <div>
+        <head>References</head>
+        <listBibl>
+          <bibl xml:id="frankjackson1986">
+	    <author>Jackson, Frank</author>
+	    <date>1986</date>
+	    <title level="a">What Mary Didn't know</title>
+	    <title level="j">The Journal of Philosophy</title>
+	    <biblScope unit="volume">83</biblScope>
+	  </bibl>
+	</listBibl>
+      </div>
+      
     </body>
   </text>
 </TEI>

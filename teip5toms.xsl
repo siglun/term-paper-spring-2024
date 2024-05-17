@@ -98,8 +98,8 @@ Notes
 <xsl:if test="t:title[@level = 'j']|t:title[@level = 'm']">\fI<xsl:apply-templates select="t:title[@level = 'j']|t:title[@level = 'm']"/>\fP<xsl:text> </xsl:text>
 </xsl:if>
 </xsl:if>
-<xsl:if test="t:biblScope[@type='volume']">
-<xsl:text>Vol. </xsl:text><xsl:apply-templates select="t:biblScope[@type='volume']"/><xsl:if test="t:biblScope[@type='number']">(<xsl:apply-templates select="t:biblScope[@type='number']"/>)<xsl:choose><xsl:when test="t:biblScope[@type='pp']"><xsl:text>, </xsl:text></xsl:when><xsl:otherwise><xsl:text>. </xsl:text></xsl:otherwise></xsl:choose></xsl:if></xsl:if> <xsl:if test="t:biblScope[@type='pp']"> <xsl:text>pp. </xsl:text><xsl:apply-templates select="t:biblScope[@type='pp']"/><xsl:text>. </xsl:text></xsl:if>
+<xsl:if test="t:biblScope[@unit='volume']">
+<xsl:text>Vol. </xsl:text><xsl:apply-templates select="t:biblScope[@unit='volume']"/><xsl:if test="t:biblScope[@unit='number']">(<xsl:apply-templates select="t:biblScope[@unit='number']"/>)<xsl:choose><xsl:when test="t:biblScope[@unit='pp']"><xsl:text>, </xsl:text></xsl:when><xsl:otherwise><xsl:text>. </xsl:text></xsl:otherwise></xsl:choose></xsl:if></xsl:if> <xsl:if test="t:biblScope[@unit='pp']"> <xsl:text>pp. </xsl:text><xsl:apply-templates select="t:biblScope[@unit='pp']"/><xsl:text>. </xsl:text></xsl:if>
 <xsl:if test="t:note">
 <xsl:apply-templates select="t:note/node()"/>
 </xsl:if>
