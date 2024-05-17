@@ -92,14 +92,14 @@ Notes
 </xsl:text><xsl:for-each select="t:author|t:editor"><xsl:if test="position() > 1 and position()=last()"><xsl:text> and </xsl:text></xsl:if><xsl:apply-templates/><xsl:if test="position() >= 1 and not(position() = last())"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><xsl:if test="t:date"><xsl:text>,
 </xsl:text><xsl:apply-templates select="t:date"/><xsl:text>. </xsl:text></xsl:if><xsl:if test="t:title">
 <xsl:if test="t:title[@level = 'a']">
-<xsl:apply-templates select="t:title[@level = 'a']"/><xsl:text>. </xsl:text><xsl:if test="t:title[@level = 'j']|t:title[@level = 'm']"><xsl:text> In:
+<xsl:apply-templates select="t:title[@level = 'a']"/><xsl:text>. </xsl:text><xsl:if test="t:title[@level = 'm']"><xsl:text> In:
 </xsl:text></xsl:if>
 </xsl:if>
 <xsl:if test="t:title[@level = 'j']|t:title[@level = 'm']">\fI<xsl:apply-templates select="t:title[@level = 'j']|t:title[@level = 'm']"/>\fP<xsl:text> </xsl:text>
 </xsl:if>
 </xsl:if>
 <xsl:if test="t:biblScope[@unit='volume']">
-<xsl:text>Vol. </xsl:text><xsl:apply-templates select="t:biblScope[@unit='volume']"/><xsl:if test="t:biblScope[@unit='number']">(<xsl:apply-templates select="t:biblScope[@unit='number']"/>)<xsl:choose><xsl:when test="t:biblScope[@unit='pp']"><xsl:text>, </xsl:text></xsl:when><xsl:otherwise><xsl:text>. </xsl:text></xsl:otherwise></xsl:choose></xsl:if></xsl:if> <xsl:if test="t:biblScope[@unit='pp']"> <xsl:text>pp. </xsl:text><xsl:apply-templates select="t:biblScope[@unit='pp']"/><xsl:text>. </xsl:text></xsl:if>
+<xsl:text>Vol. </xsl:text><xsl:apply-templates select="t:biblScope[@unit='volume']"/><xsl:if test="t:biblScope[@unit='number']">(<xsl:apply-templates select="t:biblScope[@unit='number']"/>)<xsl:choose><xsl:when test="t:biblScope[@unit='pp']"><xsl:text>, </xsl:text></xsl:when><xsl:otherwise><xsl:text>. </xsl:text></xsl:otherwise></xsl:choose></xsl:if></xsl:if> <xsl:if test="t:biblScope[@unit='pp']"> <xsl:text><!-- pp. --></xsl:text><xsl:apply-templates select="t:biblScope[@unit='pp']"/><xsl:text>. </xsl:text></xsl:if>
 <xsl:if test="t:note">
 <xsl:apply-templates select="t:note/node()"/>
 </xsl:if>
