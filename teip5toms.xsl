@@ -95,7 +95,7 @@ Notes
 <xsl:apply-templates select="t:title[@level = 'a']"/><xsl:text>. </xsl:text><xsl:if test="t:title[@level = 'm']"><xsl:text> In:
 </xsl:text></xsl:if>
 </xsl:if>
-<xsl:if test="t:title[@level = 'j']|t:title[@level = 'm']">\fI<xsl:apply-templates select="t:title[@level = 'j']|t:title[@level = 'm']"/>\fP<xsl:text> </xsl:text>
+<xsl:if test="t:title[@level = 'j']|t:title[@level = 'm']">\fI<xsl:apply-templates select="t:title[@level = 'j']|t:title[@level = 'm']"/>\fP<xsl:text>, </xsl:text>
 </xsl:if>
 </xsl:if>
 <xsl:if test="t:biblScope[@unit='volume']">
