@@ -121,7 +121,7 @@ Notes
 <xsl:apply-templates/>
 </xsl:template>
 
-<xsl:template match="t:quote"><xsl:text> \(lq</xsl:text><xsl:apply-templates/><xsl:text>\(rq</xsl:text><xsl:if test="@rend = 'space'"><xsl:text> </xsl:text></xsl:if></xsl:template>
+<xsl:template match="t:quote"><xsl:text> \(lq</xsl:text><xsl:apply-templates/><xsl:text>\(rq </xsl:text><xsl:if test="@rend = 'space'"><xsl:text> </xsl:text></xsl:if></xsl:template>
 
 <xsl:template match="t:head">
 .SH
@@ -146,8 +146,10 @@ Notes
 </xsl:text></xsl:template>
 
 
-<xsl:template match="t:p">
-.LP<xsl:text>
+<xsl:template match="t:p"><xsl:choose>
+<xsl:when test="@rend = 'noindentfirst'">
+.LP</xsl:when><xsl:otherwise>
+.PP</xsl:otherwise></xsl:choose><xsl:text>
 </xsl:text><xsl:if test="@xml:id">  
 .pdfhref M -N <xsl:value-of select="@xml:id"/><xsl:text>
 </xsl:text></xsl:if>  
@@ -155,7 +157,7 @@ Notes
 </xsl:template>
 
 <xsl:template match="t:ref[contains(substring(@target,1,1),'#')]">
-.pdfhref L -D <xsl:value-of select="substring-after(@target,'#')"/> <xsl:text> </xsl:text> <xsl:apply-templates/> <xsl:text>
+.pdfhref L -D <xsl:value-of select="substring-after(@target,'#')"/><xsl:text> </xsl:text><xsl:apply-templates/> <xsl:text>
 \&amp;</xsl:text></xsl:template>
 
 <xsl:template match="t:ref">
