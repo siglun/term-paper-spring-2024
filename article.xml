@@ -37,6 +37,16 @@
     <body>
       <div>
 	<head>Introduction</head>
+	<p>
+	</p>
+      </div>
+      <div>
+	<head>Conclusions</head>
+	<p><ref target="#ianravenscroft2005">Ravenscroft(2005:
+	172)</ref> reached a similar conclusion; by describing Mary's
+	lack of knowledge as that she did not understand what other
+	knew about red tomatoes, Ravenscroft evaded the objection to
+	his argument described above.</p>
       </div>
       <div>
         <head>References</head>
@@ -70,6 +80,12 @@
 	    <biblScope unit="number">2</biblScope>
 	    <biblScope unit="pp">315&#8722;329</biblScope>
 	    <ref target="https://www.jstor.org/stable/2108491">https://doi.org/10.2307/2108491</ref>
+	  </bibl>
+	  <bibl xml:id="ianravenscroft2005">
+	    <author>Ravenscroft, Ian</author>
+	    <date>2005</date>
+	    <title level="m">Philosophy of mind: A beginner's Guide</title>
+	    <publisher>Oxford University Press</publisher>
 	  </bibl>
 	</listBibl>
       </div>
