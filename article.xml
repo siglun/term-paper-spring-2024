@@ -37,12 +37,34 @@
     <body>
       <div>
 	<head>Introduction</head>
-	<p>
-	</p>
+
+	<p rend='noindentfirst'>Biology is, writes <ref
+	target="#jjcsmart1959">Smart (1959: 142)</ref> <hi
+	rend='italic'><quote>to physics as radio-engineering is to
+	electromagnetism) except the occurrence of sensations seems to
+	me to be frankly unbelievable.</quote></hi> The effect such a
+	statement have on biologists and biologically inclined philosophers could be easily foreseen.
+	I think it is safe to assume that Smart was wilfully provocative.</p>
+	
+	<p><ref target="#jjcsmart1959"> Smart's (op cit.)</ref> and others' works led to
+	a <hi rend='italic'><quote>wave of reductionist euphoria</quote></hi>
+	or that is how <ref target="#thomasnagel1974">Nagel (1974: 435)</ref>
+	puts it in his seminal paper <title>What is it like to be a bat</title>.
+	Nagel discusses at length that chiropterology (the scientific study of bats) has study <hi rend="italic">how it is like</hi> to see the world using echolocation.</p>
+
+	<p>Nagel was joined by Jackson who wrote a series of papers,
+	including <title>What Mary Didn't know</title> <ref
+	target="#frankjackson1986">(Jackson 1986).</ref>
+	The argument furthered by the two is usually refered to as
+	<hi rend="italic">the knowledge argument</hi> <ref target="#ianravenscroft2005">Ravenscroft (2005: 171).</ref>
+	Jackspon's and Nagel's works provoked a response by <ref
+	target="#derkpereboom1994">Pereboom (1994).</ref>
+	In this note I study the papers papers by Jackson and Pereboom.</p>
+
       </div>
       <div>
 	<head>Conclusions</head>
-	<p><ref target="#ianravenscroft2005">Ravenscroft(2005:
+	<p rend='noindentfirst'><ref target="#ianravenscroft2005">Ravenscroft (2005:
 	172)</ref> reached a similar conclusion; by describing Mary's
 	lack of knowledge as that she did not understand what other
 	knew about red tomatoes, Ravenscroft evaded the objection to
@@ -61,7 +83,7 @@
 	    <biblScope unit="pp">291&#8722;295</biblScope>
 	    <ref target="https://www.jstor.org/stable/2026143">https://doi.org/10.2307/2026143</ref>
 	  </bibl>
-	  <bibl xml:id="thomasnagel">
+	  <bibl xml:id="thomasnagel1974">
 	    <author>Nagel, Thomas</author>
 	    <title level="a">What Is It Like to Be a Bat?</title>
 	    <title level="j">The Philosophical Review</title>
@@ -87,6 +109,17 @@
 	    <title level="m">Philosophy of mind: A beginner's Guide</title>
 	    <publisher>Oxford University Press</publisher>
 	  </bibl>
+	  <bibl xml:id="jjcsmart1959">
+	    <author>Smart, John J. C.</author>
+	    <date>1959</date>
+	    <title level="a">Sensations and Brain Processes</title>
+	    <title level="j">The Philosophical Review</title>
+	    <biblScope unit="volume">68</biblScope>
+	    <biblScope unit="number">2</biblScope>
+	    <biblScope unit="pp">141&#8722;156</biblScope>
+	    <ref target="https://www.jstor.org/stable/2182164">https://doi.org/10.2307/2182164</ref>
+	  </bibl>
+	  
 	</listBibl>
       </div>
       

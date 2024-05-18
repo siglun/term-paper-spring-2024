@@ -1,0 +1,189 @@
+.\" **********************************************
+.\"
+.\" Here comes some hacks by S. Lundberg
+.\" To be used together with groff tmac.s
+.\" 
+.\" the dropcap comes from Werner Lemberg, and the smallcaps from
+.\" Ted Harding
+.\"
+.fam BA
+.nr PI 2.5n
+.ig
+.nr PS 11
+.nr VS 13
+.nr HM 5.0c
+.nr PO 6.0c
+.nr LL 9.0c
+.nr FM 8.0c
+..
+.ig
+.nr PS 12
+.nr VS 14
+.pl 60v
+.nr PL 60v
+.nr HM 4.0c
+.nr PO 5.0c
+.nr LL 11.0c
+.nr FM 4.0c
+..
+.nr PS 13
+.nr VS 15
+.pl 64v
+.nr PL 64v
+.nr HM 4.0c
+.nr PO 4.0c
+.nr LL 13.0c
+.nr FM 3.0c
+.ds titlepage yes
+.ds RCSID yes
+.hla sv
+.hpf hyphen.sv
+.so hyphenation.text
+.ds macro "$Id: tmac.bok,v 1.3 2002/03/26 17:25:19 siglun Exp siglun $
+.ds BULLET \\fB\\s+3\\(bu\\s-3\\fP
+.de SMALL
+.ps 10
+.vs 12
+..
+.de IXINIT
+.open index index.log
+.nr INDEXOPEN 1
+..
+.de IX
+.if !rINDEXOPEN .IXINIT
+.ie '\\n[.z]'' \{\
+.write index \\$1\t\\$2\t\\$3\t\\$4\t\\$5
+.\}\
+.el \{\
+\!.IX \\$1 "\\$2" "\\$3" "\\$4" "\\$4" \\$5 
+.\}
+..
+.de PT
+.if !dRCSID \{\
+.   so headers/H\\n[PN]
+.   ie o .tl \\*[pg*OH]
+.   el .tl \\*[pg*EH]
+.\}
+..
+.de BT
+.ie !dtitelpage \{\
+.   ie d RCSID \{\
+.      ie o .tl ''\\s-2%\\s+2''
+.      el .tl ''\\s-2%\\s+2''
+.      rm RCSID
+.      outnope
+.   \}
+.   el .outhead
+.\} 
+.el .rm titelpage
+..
+.\"
+.de outhead
+.open header headers/H\\n[PN]
+.write header ".ds pg*OH '\\s-2\\*[chapter]\\s+2''\\s-2\\n[PN]\\s+2'
+.write header ".ds pg*EH '\\s-2\\n[PN]\\s+2''\\fI\\s-2\\*[book]\\fP\\s+2'
+.close header
+..
+.de outnope
+.open header headers/H\\n[PN]
+.write header ".ds pg*OH ''''
+.write header ".ds pg*EH ''''
+.close header
+..
+.\" auxiliary macro for `dropcap'
+.de dr-reset
+'  in 0
+.  wh \\n[dr-pos]u
+..
+.
+.\" $1: The letter used as a dropcap.  Only uppercase letters will look OK.
+.\" $2: The number of lines used by $1
+.de dropcap
+.  \" set the `rst' and `rsb' registers
+.  nr dr-dummy \w'\\$1'
+.  \" compute size of dropcap (in scaled points):
+.  \"
+.  \"   rst - rsb                            ........    .ps
+.  \"   rst + ($2-1)*.ps + ($2-1)*(.v-.ps)   ........    ?
+.  \"
+.  nr dr-size ((\\n[rst] + ((\\$2 - 1) * \\n[.v])) * \\n[.ps] \
+               / (\\n[rst] - \\n[rsb]))
+.  nr dr-height (((\\$2 - 1) * \\n[.v]) \
+                 + ((\\n[rsb] * \\n[dr-size]) / \\n[.ps]))
+.  nr dr-pos (\\n[nl] + (\\$2v - 1v))
+.  nr dr-wid \w'\s[\\n[dr-size]u]\\$1\^'
+\v'\\n[dr-height]u'\
+\s[\\n[dr-size]u]\
+\\$1\^\
+\s[0]\
+\v'-\\n[dr-height]u'\c
+'  in \\n[dr-wid]u
+.  wh \\n[dr-pos]u dr-reset
+..
+.de initial
+.smallcaps
+\\$1
+./smallcaps
+..
+.nr chptr 0 1
+.de CHAPTER
+.nr ch \\n+[chptr]
+.ie o .sy ./chapter.pl chapter_odd.eps '\\$1' > CHAPTER/\\n[ch].eps 
+.el .sy ./chapter.pl chapter_even.eps '\\$1' > CHAPTER/\\n[ch].eps 
+.LP
+.PSPIC CHAPTER/\\n[ch].eps
+..
+.de smallcaps
+.nr .sc.ps (\\n[.s]*75/100)
+.nr .cap.PS \\n[.s]
+.char a \\s[\\n[.sc.ps]]A\\s[\\n[.cap.PS]]
+.char b \\s[\\n[.sc.ps]]B\\s[\\n[.cap.PS]]
+.char c \\s[\\n[.sc.ps]]C\\s[\\n[.cap.PS]]
+.char d \\s[\\n[.sc.ps]]D\\s[\\n[.cap.PS]]
+.char e \\s[\\n[.sc.ps]]E\\s[\\n[.cap.PS]]
+.char f \\s[\\n[.sc.ps]]F\\s[\\n[.cap.PS]]
+.char g \\s[\\n[.sc.ps]]G\\s[\\n[.cap.PS]]
+.char h \\s[\\n[.sc.ps]]H\\s[\\n[.cap.PS]]
+.char i \\s[\\n[.sc.ps]]I\\s[\\n[.cap.PS]]
+.char j \\s[\\n[.sc.ps]]J\\s[\\n[.cap.PS]]
+.char k \\s[\\n[.sc.ps]]K\\s[\\n[.cap.PS]]
+.char l \\s[\\n[.sc.ps]]L\\s[\\n[.cap.PS]]
+.char m \\s[\\n[.sc.ps]]M\\s[\\n[.cap.PS]]
+.char n \\s[\\n[.sc.ps]]N\\s[\\n[.cap.PS]]
+.char o \\s[\\n[.sc.ps]]O\\s[\\n[.cap.PS]]
+.char p \\s[\\n[.sc.ps]]P\\s[\\n[.cap.PS]]
+.char q \\s[\\n[.sc.ps]]Q\\s[\\n[.cap.PS]]
+.char r \\s[\\n[.sc.ps]]R\\s[\\n[.cap.PS]]
+.char s \\s[\\n[.sc.ps]]S\\s[\\n[.cap.PS]]
+.char t \\s[\\n[.sc.ps]]T\\s[\\n[.cap.PS]]
+.char u \\s[\\n[.sc.ps]]U\\s[\\n[.cap.PS]]
+.char v \\s[\\n[.sc.ps]]V\\s[\\n[.cap.PS]]
+.char w \\s[\\n[.sc.ps]]W\\s[\\n[.cap.PS]]
+.char x \\s[\\n[.sc.ps]]X\\s[\\n[.cap.PS]]
+.char y \\s[\\n[.sc.ps]]Y\\s[\\n[.cap.PS]]
+.char z \\s[\\n[.sc.ps]]Z\\s[\\n[.cap.PS]]
+.char \\[oa] \\s[\\n[.sc.ps]]Å\\s[\\n[.cap.PS]]
+.char \\[:a] \\s[\\n[.sc.ps]]Ä\\s[\\n[.cap.PS]]
+.char \\[:o] \\s[\\n[.sc.ps]]Ö\\s[\\n[.cap.PS]]
+.char \\[:u] \\s[\\n[.sc.ps]]Ü\\s[\\n[.cap.PS]]
+..
+.de /smallcaps
+.rchar a b c d e f g h i j k l m n o p q r s t u v w x y z \\[oa] \\[:a] \\[:o] \\[:u]
+..
+.ig
+
+$Log: tmac.bok,v $
+Revision 1.3  2002/03/26 17:25:19  siglun
+Flyttat tillbaka filen från NetLab och hem
+
+Revision 1.3  2002/03/26 09:16:55  siglun
+Changing \{ to \{\
+
+Revision 1.2  2002/03/24 09:45:43  siglun
+A now dropcap macro from Werner Lemberg and better smallcaps from
+Ted Harding
+
+Revision 1.1  2001/07/20 15:54:38  siglun
+Initial revision
+
+..
