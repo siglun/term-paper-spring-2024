@@ -35,12 +35,12 @@
       </div>
     </front>
     <body>
-      <div>
+      <div xml:id="intro">
 	<head>Introduction</head>
 
 	<p rend='noindentfirst'>Biology is, writes <ref
 	target="#jjcsmart1959">Smart (1959: 142)</ref> <hi
-	rend='italic'><quote>to physics as radio-engineering is to
+	rend='italic'><quote xml:id="unbelievable_according_to_smart">to physics as radio-engineering is to
 	electromagnetism) except the occurrence of sensations seems to
 	me to be frankly unbelievable.</quote></hi> The effect such a
 	statement have on biologists and biologically inclined philosophers could be easily foreseen.
@@ -50,19 +50,67 @@
 	a <hi rend='italic'><quote>wave of reductionist euphoria</quote></hi>
 	or that is how <ref target="#thomasnagel1974">Nagel (1974: 435)</ref>
 	puts it in his seminal paper <title>What is it like to be a bat</title>.
-	Nagel discusses at length that chiropterology (the scientific study of bats) has study <hi rend="italic">how it is like</hi> to see the world using echolocation.</p>
+	Nagel discusses at length that chiropterology (the scientific study of bats) has to study
+	<hi rend="italic">how it is like</hi>
+	how to see the world using echolocation.</p>
 
-	<p>Nagel was joined by Jackson who wrote a series of papers,
+	<p>Nagel was later joined by Jackson who wrote a series of papers,
 	including <title>What Mary Didn't know</title> <ref
 	target="#frankjackson1986">(Jackson 1986).</ref>
 	The argument furthered by the two is usually refered to as
-	<hi rend="italic">the knowledge argument</hi> <ref target="#ianravenscroft2005">Ravenscroft (2005: 171).</ref>
-	Jackspon's and Nagel's works provoked a response by <ref
+	<hi rend="italic">the knowledge argument</hi>
+	<ref target="#ianravenscroft2005">Ravenscroft (2005: 171).</ref>
+	Following <ref
+	target="#frankjackson1986">Jackson (op cit.)</ref>, the argument goes roughly as follows:</p>
+
+	<list xml:id="jacksonsargument"  type="syllogism">
+	  <item xml:id="label_a">
+	    <label>(A)</label>
+	    <p>Physicalism is the idea that the world is not only
+	    largely physical but <hi rend="bold">completely</hi>
+	    physical.  On this point <ref
+	    target="#frankjackson1986">Jackson (1986: 291, see his footnote 1)</ref> argues
+	    that if physicalism is true,
+	    and if you know everything expressable in a physical language,
+	    then you know <hi rend="bold">absolutely</hi> everything.</p>
+	  </item>
+	  <item xml:id="label_b">
+	    <label>(B)</label>
+	    <p>Suppose that our world <hi rend="italic">W</hi> is <hi rend="bold">not completely</hi> physical.
+	    Then there is a possible world <hi rend="italic">W'</hi> which is.</p>
+	  </item>
+	  <item xml:id="label_c">
+	    <label>(C)</label>
+	    <p>Since the world <hi rend="italic">W'</hi> is completely physical,
+	    the difference between that world and our <hi
+	    rend="italic">W</hi> must be facts that cannot be
+	    expressed in a physical language <ref target="#frankjackson1986">(Jackson 1986).</ref></p>
+	  </item>
+	</list>
+
+	<p>Now, please recall that what <ref target="#jjcsmart1959">
+	Smart (op cit.)</ref> <ref
+	target="#unbelievable_according_to_smart">regarded as
+	unbelievable was sensations</ref> and that what <ref
+	target="#thomasnagel1974">Nagel (op cit.)</ref> regarded as
+	essential (at least for understanding bats), was echolocation.</p>
+	
+	<p>Jackspon's and Nagel's works provoked a response by <ref
 	target="#derkpereboom1994">Pereboom (1994).</ref>
 	In this note I study the papers papers by Jackson and Pereboom.</p>
 
       </div>
-      <div>
+
+      <div xml:id="mary">
+	<head>What Mary Didn't Know</head>
+      </div>
+
+      <div xml:id="pereboom">
+	<head>Pereboom's analysis</head>
+
+      </div>
+      
+      <div xml:id="conclusions">
 	<head>Conclusions</head>
 	<p rend='noindentfirst'><ref target="#ianravenscroft2005">Ravenscroft (2005:
 	172)</ref> reached a similar conclusion; by describing Mary's
@@ -70,7 +118,8 @@
 	knew about red tomatoes, Ravenscroft evaded the objection to
 	his argument described above.</p>
       </div>
-      <div>
+
+      <div xml:id="references">
         <head>References</head>
         <listBibl>
           <bibl xml:id="frankjackson1986">

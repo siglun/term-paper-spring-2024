@@ -121,7 +121,10 @@ Notes
 <xsl:apply-templates/>
 </xsl:template>
 
-<xsl:template match="t:quote"><xsl:text> \(lq</xsl:text><xsl:apply-templates/><xsl:text>\(rq </xsl:text><xsl:if test="@rend = 'space'"><xsl:text> </xsl:text></xsl:if></xsl:template>
+<xsl:template match="t:quote"><xsl:if test="@xml:id">  
+.pdfhref M -N <xsl:value-of select="@xml:id"/><xsl:text>
+</xsl:text></xsl:if><xsl:text>
+\(lq</xsl:text><xsl:apply-templates/><xsl:text>\(rq </xsl:text><xsl:if test="@rend = 'space'"><xsl:text> </xsl:text></xsl:if></xsl:template>
 
 <xsl:template match="t:head">
 .SH
@@ -184,6 +187,13 @@ Notes
 </xsl:for-each>
 </xsl:template>
 
+<xsl:template match="t:list[@type='syllogism']">
+<xsl:for-each select="t:item">
+.IP <xsl:value-of select="t:label"/><xsl:text>
+</xsl:text><xsl:apply-templates select="t:p/node()"/>
+</xsl:for-each>
+</xsl:template>
+
 <xsl:template match="t:list">
 <xsl:for-each select="t:item">
 <xsl:text>
@@ -232,12 +242,12 @@ Notes
 </xsl:text></xsl:template>
   
 
-<xsl:template match="t:emph[@rend='bold']"> \fB<xsl:apply-templates/>\fP</xsl:template>
+<xsl:template match="t:emph[@rend='bold']"> \fB<xsl:apply-templates/>\fP </xsl:template>
 
 <xsl:template match="t:p/t:title"><xsl:text> \fI</xsl:text><xsl:apply-templates/><xsl:text>\fP</xsl:text></xsl:template>
 
-<xsl:template match="t:hi[@rend='italic']|t:hi[@rend='italics']"> \fI<xsl:apply-templates/>\fP</xsl:template>
-<xsl:template match="t:hi[@rend='bold']"> \fB<xsl:apply-templates/>\fP</xsl:template>
+<xsl:template match="t:hi[@rend='italic']|t:hi[@rend='italics']"> \fI<xsl:apply-templates/>\fP </xsl:template>
+<xsl:template match="t:hi[@rend='bold']"> \fB<xsl:apply-templates/>\fP </xsl:template>
 <xsl:template match="t:hi[@rend='monospaced']"> \f(CR\s-1<xsl:apply-templates/>\s+1\fP</xsl:template>
 
 

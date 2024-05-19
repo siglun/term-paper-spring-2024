@@ -17,6 +17,7 @@ source "parameters.sh"
 xsltproc teip5toms.xsl  article.xml | grep -v '^$' >  article.ms
 groff -U  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms  article.ms >  article.pdf
 
-
+echo Number of words: 
+perl -ne 's/<[^>]+>//g;print;' article.xml  | wc -w
 
 
