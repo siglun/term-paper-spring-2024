@@ -128,13 +128,91 @@
 	and the questions are:
 	What did she learn when she meets the real world?
 	In particular, what did she say when she first saw a ripe red tomato?</p>
-	
+
+	<p>Following <ref target="#frankjackson1986">Jackson
+	(1986),</ref> this how Mary's black-and-white room narrative
+	can be boiled down to an argument:</p>
+
+	<list xml:id="jacksonformalizingmary"  type="syllogism">
+	  <item xml:id="label_1">
+	    <label>(1)</label>
+	    <p>From <ref target="#label_a">(A):</ref>
+	<quote xml:id="maryknowseverythingphysical">Mary (before her
+	    release) knows everything physical there is to know about
+	    other people.</quote> <ref target="#frankjackson1986">(Jackson
+	    1986: 293).</ref></p>
+	  </item>
+	  <item xml:id="label_2">
+	    <label>(2)</label>
+	    <p>From <ref target="#label_b">(B):</ref>
+	    <quote xml:id="marydoesntknowseverythingaboutothers">Mary (before
+	    her release) does not know everything there is to know
+	    about other people (because she learns something about
+	    them on her release).</quote> <ref target="#frankjackson1986">(Jackson
+	    1986: 293).</ref></p>
+	  </item>
+	</list>
+	<p rend='noindentfirst'>Hence</p>
+	<list type="syllogism">
+	  <item xml:id="label_3">
+	    <label>(3)</label>
+	    <p>From <ref target="#label_c">(C):</ref>
+	    <quote xml:id="therearestuffescapingthephysicalists">There are
+	    truths about other people (and herself) which escape the
+	    physicalist story.</quote> <ref target="#frankjackson1986">(Jackson
+	    1986: 293).</ref></p>
+	  </item>
+	</list>
 
       </div>
 
       <div xml:id="pereboom">
 	<head>Pereboom's analysis</head>
 
+	<p rend='noindentfirst'>bla bla bla</p>
+
+	<p>Before his attack on the knowledge argument, he presents how Mary's Room
+	could be formalized. Quoting verbatim from <ref
+	target="#derkpereboom1994">Pereboom (1994: 318):</ref></p>
+
+	<list type="syllogism">
+	  <item xml:id="pereboomsmary1">
+	    <label>(i)</label>
+	    <p>Mary (while in the room) knows everything physical there is to
+	  know about human beings.</p></item>
+	  <item xml:id="pereboomsmary2">
+	    <label>(ii)</label>
+	    <p>Mary (while in the room) does not know everything there is to
+know about the nature of human sensations and their properties.</p>
+	  </item>
+	</list>
+	<p rend='noindentfirst'>Therefore</p>
+	<list type="syllogism">
+	  <item xml:id="pereboomsmary3">
+	    <label>(C)</label>
+	    <p>There is information about human sensations that is not physical,
+	  and thus human sensations are not completely physical.</p></item>
+	</list>
+
+	<p rend='noindentfirst'>The differences between Jackson's and
+	Pereboom's first premises could hardly be larger.
+	Jackson is focussing on that Mary knows everything that can be formulated in
+	a <hi rend="bold">physical language</hi> about <hi rend="bold">other human
+	beings,</hi> see <ref target="#label_1">(1).</ref>
+	Pereboom is much more vague, see his premise <ref
+	target="#pereboomsmary1">(i).</ref> For him, Mary just
+	knows everything physical about humans in general.</p>
+
+	<p>The difference between the consequents are different as
+	well. Jackson's Mary realizes, upon her release, that there
+	were important things she did not know about other people's
+	perceptions. See <ref target="#label_3">(3).</ref> Pereboom's
+	consequent <ref target="#pereboomsmary3">(C)</ref> just
+	concludes that there is information about human sensations
+	that are not completely physical.</p>
+
+	<p>I have problems with this, first because </p>
+	
       </div>
       
       <div xml:id="conclusions">
