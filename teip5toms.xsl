@@ -181,14 +181,18 @@ Notes
 </xsl:text></xsl:template>
 
 <xsl:template match="t:list[@type='ordered']">
-<xsl:for-each select="t:item">
+<xsl:for-each select="t:item"><xsl:if test="@xml:id">  
+.pdfhref M -N <xsl:value-of select="@xml:id"/><xsl:text>
+</xsl:text></xsl:if>
 .IP <xsl:value-of select="position()"/><xsl:text>
 </xsl:text><xsl:apply-templates/>
 </xsl:for-each>
 </xsl:template>
 
 <xsl:template match="t:list[@type='syllogism']">
-<xsl:for-each select="t:item">
+<xsl:for-each select="t:item"><xsl:if test="@xml:id">  
+.pdfhref M -N <xsl:value-of select="@xml:id"/><xsl:text>
+</xsl:text></xsl:if>
 .IP <xsl:value-of select="t:label"/><xsl:text>
 </xsl:text><xsl:apply-templates select="t:p/node()"/>
 </xsl:for-each>
