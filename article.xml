@@ -83,7 +83,7 @@
 	    <p>Since the world <hi rend="italic">W'</hi> is completely physical,
 	    the difference between that world and our <hi
 	    rend="italic">W</hi> must be facts that cannot be
-	    expressed in a physical language <ref target="#frankjackson1986">(Jackson 1986).</ref></p>
+	    expressed in a physical language <ref target="#frankjackson1986">(Jackson 1986: 291).</ref></p>
 	  </item>
 	</list>
 
@@ -108,10 +108,14 @@
 	<head>What Mary Didn't Know</head>
 
 	<p rend='noindentfirst'>Mary's black-and-white room is a
-	thought experiment proposed by Jackson.
-	He has discussed it in a number of essays.
-	I will concentrate on <ref target="#frankjackson1986">Jackson (1986),</ref>
-	even though it is not his first treatment of the problem.</p>
+	thought experiment proposed by Jackson.  He has discussed it
+	in a number of essays.  I will concentrate on <ref
+	target="#frankjackson1986">Jackson (1986),</ref> even though
+	it is not his first treatment of the problem.  This brief note
+	was written as a reply to <ref
+	target="#paulchurchland1985">Churchland (1985),</ref> who in
+	turned had attacked those earlier papers. I will not here
+	further discuss Churchland.</p>
 
 	<p>Mary is an extremely gifted neuroscientist.  Since birth
 	she has been confined to a room furnished completely in
@@ -169,9 +173,19 @@
       <div xml:id="pereboom">
 	<head>Pereboom's analysis</head>
 
-	<p rend='noindentfirst'>bla bla bla</p>
+	<p rend='noindentfirst'><ref
+	target="#derkpereboom1994">Pereboom (1994)</ref> discusses
+	both <ref target="#thomasnagel1974">Nagel (1974)</ref> and
+	<ref target="#frankjackson1986">Jackson (1986)</ref>
+	treatments of the knowledge argument. More specifically,
+	Pereboom (op cit.) starts with <ref
+	target="#paulchurchland1985">Churchland (1985)</ref>. <ref
+	target="#derkpereboom1994">Pereboom (1986: 316)</ref> is
+	convinced that this <hi
+	rend='italic'><quote xml:id="thatstrategy">strategy can be enhanced to resolve the
+	controversy in favor of the materialist.</quote></hi></p>
 
-	<p>Before his attack on the knowledge argument, he presents how Mary's Room
+	<p>Before attacking the argument, he presents how Mary's Room
 	could be formalized. Quoting verbatim from <ref
 	target="#derkpereboom1994">Pereboom (1994: 318):</ref></p>
 
@@ -211,7 +225,7 @@ know about the nature of human sensations and their properties.</p>
 	concludes that there is information about human sensations
 	that are not completely physical.</p>
 
-	<p>I have problems with this, first because </p>
+	<p>Clearly, Jackson's views have evolved over time </p>
 	
       </div>
       
@@ -227,6 +241,15 @@ know about the nature of human sensations and their properties.</p>
       <div xml:id="references">
         <head>References</head>
         <listBibl>
+	  <bibl xml:id="paulchurchland1985">
+	    <author>Churchland, Paul M.</author>
+	    <title level="a">Reduction, Qualia, and the Direct
+	    Introspection of Brain States</title>
+	    <title level="j">The Journal of Philosophy</title>
+	    <biblScope unit="volume">82</biblScope>
+	    <biblScope unit="number">1</biblScope>
+	    <biblScope unit="pp">8-28</biblScope>
+	  </bibl>
           <bibl xml:id="frankjackson1986">
 	    <author>Jackson, Frank</author>
 	    <date>1986</date>
