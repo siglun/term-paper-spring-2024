@@ -113,6 +113,7 @@ Notes
 
 <xsl:template match="t:note">\**<xsl:text>
 .FS
+.na
 </xsl:text><xsl:apply-templates/><xsl:text>
 .FE
 </xsl:text></xsl:template>
