@@ -29,8 +29,14 @@
         </address>
       </docAuthor>
       <div type="abstract">
-	<p>The
-	</p>
+	<p>A discussion of the knowledge arguement based on papers by <ref
+	target="#frankjackson1986">Jackson (1986)</ref> and <ref
+	target="#derkpereboom1994">Pereboom (1994).</ref>
+	It seems that the former treatment of the problem survives attacks from the later.</p>
+	<p>Physicalism is a moving target:
+	The physics which is the result of the reduction varies with what physical theory is popular at each moment in time among philosophers;
+	from billiard balls, to physico-chemical processes and the general theory relativity and finally quantum physics.
+	The reductionism looks the same, though. It is as eternal as the eternal questions.</p>
       </div>
     </front>
     <body>
