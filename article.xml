@@ -181,7 +181,7 @@
 	Jackson does not tell us what she said. Only what she did not say:  <hi
 	rend="italic"><quote>ho, hum.</quote></hi></p>
 
-
+	
       </div>
 
       <div xml:id="pereboom">
@@ -284,12 +284,35 @@ know about the nature of human sensations and their properties.</p>
 
 	<p>He evaded not only <ref target="#paulchurchland1985">Churchland (1985),</ref>
 	but also <ref target="#derkpereboom1994">Pereboom (1994).</ref> Basically, Pereboom  refer to Jackson (1986) but does not really respond to it. Pereboom's paper is basically about earlier versions of the knowledge argument.</p>
+
+	<p>
+	  <ref target="#jjcsmart1963">Smart (1963: 651)</ref> wrote that he does
+	  <hi rend="italic"><quote>not hold materialism to be wedded to the billiard-ball physics of the nineteenth century,</quote></hi> which I think is good.
+	  A few years earlier he wrote, however, that <hi rend="italic"><quote>science is increasingly giving us a viewpoint whereby organisms are able to be seen as physico-chemical mechanisms: it seems that even the behavior of man
+himself will one day be explicable in mechanistic terms.</quote></hi>
+	  
+
+
+
+	</p>
+
 	
       </div>
 
       <div xml:id="references">
         <head>References</head>
         <listBibl>
+	  <bibl xml:id="reductionism">
+	    <author>Brigandt, Ingo</author>
+	    <author>Love, Alan</author>
+	    <date>2023</date>
+	    <title level="a">Reductionism in Biology</title>
+	    <title level="m">The Stanford Encyclopedia of Philosophy</title>
+	    <editor>Edward N. Zalta</editor>
+	    <editor>Uri Nodelman</editor>
+	    <publisher>Metaphysics Research Lab, Stanford University</publisher>
+	    <ref target="https://plato.stanford.edu/archives/sum2023/entries/reduction-biology/">https://plato.stanford.edu/archives/sum2023/entries/reduction-biology/</ref>
+	  </bibl>
 	  <bibl xml:id="paulchurchland1985">
 	    <author>Churchland, Paul M.</author>
 	    <title level="a">Reduction, Qualia, and the Direct
@@ -345,7 +368,16 @@ know about the nature of human sensations and their properties.</p>
 	    <biblScope unit="pp">141&#8722;156</biblScope>
 	    <ref target="https://www.jstor.org/stable/2182164">https://doi.org/10.2307/2182164</ref>
 	  </bibl>
-	  
+	  <bibl xml:id="jjcsmart1963">
+	    <author>Smart, John J. C.</author>
+	    <date>1963</date>
+	    <title level="a">Materialism</title>
+	    <title level="j">The Journal of Philosophy</title>
+	    <biblScope unit="volume">60</biblScope>
+	    <biblScope unit="number">22</biblScope>
+	    <biblScope unit="pp">651&#8722;662</biblScope>
+	    <ref target="https://www.jstor.org/stable/2023512">https://doi.org/10.2307/2023512</ref>
+	  </bibl>
 	</listBibl>
       </div>
       
