@@ -92,14 +92,14 @@ Notes
 <xsl:template match="t:bibl">
 .XP
 .pdfhref M -N <xsl:value-of select="@xml:id"/><xsl:text>
-</xsl:text><xsl:for-each select="t:author"><xsl:if test="position() > 1 and position()=last()"><xsl:text> and </xsl:text></xsl:if><xsl:apply-templates/><xsl:if test="position() >= 1 and not(position() = last())"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><xsl:if test="t:date"><xsl:text>,
-</xsl:text><xsl:apply-templates select="t:date"/><xsl:text>. </xsl:text></xsl:if><xsl:if test="t:title">
+</xsl:text><xsl:for-each select="t:author"><xsl:if test="position() > 1 and position()=last()"><xsl:text> &amp; </xsl:text></xsl:if><xsl:apply-templates/><xsl:if test="position() >= 1 and not(position() = last())"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><xsl:if test="t:date"><xsl:text>
+</xsl:text>(<xsl:apply-templates select="t:date"/>)<xsl:text>. </xsl:text></xsl:if><xsl:if test="t:title">
 <xsl:if test="t:title[@level = 'a']">
-<xsl:apply-templates select="t:title[@level = 'a']"/><xsl:text>. </xsl:text><xsl:if test="t:title[@level = 'm']"><xsl:text> In:
+<xsl:apply-templates select="t:title[@level = 'a']"/><xsl:choose><xsl:when test="contains(substring(t:title[@level = 'a'],string-length(t:title[@level = 'a'])),'?')"><xsl:text> </xsl:text></xsl:when><xsl:otherwise><xsl:text>. </xsl:text></xsl:otherwise></xsl:choose><xsl:if test="t:title[@level = 'm']"><xsl:text> In:
 </xsl:text></xsl:if>
 </xsl:if>
 
-<xsl:if test="t:editor"><xsl:for-each select="t:editor"><xsl:if test="position() > 1 and position()=last()"><xsl:text> and </xsl:text></xsl:if><xsl:apply-templates/><xsl:if test="position() >= 1 and not(position() = last())"><xsl:text>, </xsl:text></xsl:if></xsl:for-each> (ed.) </xsl:if>
+<xsl:if test="t:editor"><xsl:for-each select="t:editor"><xsl:if test="position() > 1 and position()=last()"><xsl:text> &amp; </xsl:text></xsl:if><xsl:apply-templates/><xsl:if test="position() >= 1 and not(position() = last())"><xsl:text>, </xsl:text></xsl:if></xsl:for-each> (ed.) </xsl:if>
 
 <xsl:if test="t:title[@level = 'j']|t:title[@level = 'm']">\fI<xsl:apply-templates select="t:title[@level = 'j']|t:title[@level = 'm']"/>\fP<xsl:text>, </xsl:text>
 </xsl:if>
@@ -300,7 +300,7 @@ T}</xsl:text></xsl:when><xsl:otherwise><xsl:apply-templates/></xsl:otherwise></x
 .KE
 </xsl:template>
 
-
+<xsl:template match="t:formula[@rend='inline']"><xsl:text> $</xsl:text><xsl:copy-of select="."/>$ </xsl:template>
 
 <xsl:template match="t:table"><xsl:text>
 .KF</xsl:text>
