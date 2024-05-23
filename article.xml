@@ -33,11 +33,10 @@
 	<p>A discussion of the knowledge argument based on papers by <ref
 	target="#frankjackson1986">Jackson (1986)</ref> and <ref
 	target="#derkpereboom1994">Pereboom (1994).</ref>
-	It seems that the former treatment of the problem survives attacks from the later.</p>
+	It seems that the former treatment of the problem survives attacks from the latter.</p>
 	<p>Physicalism is a moving target:
-	The physics which is the result of the reduction varies with what physical theory is popular at each moment in time among philosophers;
-	from billiard balls, to physico-chemical processes and the general theory of relativity and finally quantum physics.
-	The reductionism looks the same, though. It is as eternal as the eternal questions.</p>
+	The physics which is the result of a reduction varies with what physical theory is popular  among philosophers at each moment in time;
+	from billiard balls, to physico-chemical processes, molecular genetics and possibly, in the future, quantum gravity.</p>
       </div>
     </front>
     <body>
@@ -64,7 +63,7 @@
 	target="#frankjackson1986">(Jackson 1986).</ref>
 	The argument furthered by the two is usually referred to as
 	<hi rend="italic">the knowledge argument</hi>
-	<ref target="#ianravenscroft2005">Ravenscroft (2005: 171).</ref>
+	<ref target="#ianravenscroft2005">(Ravenscroft 2005: 171).</ref>
 	Formalising <ref
 	target="#frankjackson1986">Jackson (1986: 291)</ref> a bit further, the argument could look roughly as follows:</p>
 
@@ -87,7 +86,7 @@
 	  <item xml:id="label_c">
 	    <label>(C)</label>
 	    <p>Since the world <formula notation="eqn" rend="inline">W prime</formula> is completely physical,
-	    the difference between that world and our <formula notation="eqn" rend="inline">W</formula>  must be facts that cannot be expressed in a physical language <ref target="#frankjackson1986">(Jackson 1986: 291).</ref></p>
+	    the difference between that world and our world <formula notation="eqn" rend="inline">W</formula>  must be facts that cannot be expressed in a physical language <ref target="#frankjackson1986">(Jackson 1986: 291).</ref></p>
 	  </item>
 	</list>
 
@@ -143,7 +142,7 @@
 	<list xml:id="jacksonformalizingmary"  type="syllogism">
 	  <item xml:id="label_1">
 	    <label>(1)</label>
-	    <p>From <ref target="#label_a">(A):</ref>
+	    <p>From <ref target="#label_a">(A) above:</ref>
 	<quote xml:id="maryknowseverythingphysical">Mary (before her
 	    release) knows everything physical there is to know about
 	    other people.</quote> <ref target="#frankjackson1986">(Jackson
@@ -172,13 +171,14 @@
 	</list>
 	
 	<p>So what did Mary learn? <ref
-	target="#frankjackson1986">Jackson 1986.</ref> claims that she
+	target="#frankjackson1986">Jackson (1986: 293)</ref> claims that she
 	learned something about other people. What she <hi
 	rend="italic"><quote>did not know until her release is not a
 	physical fact about about their experiences. But it was a fact
 	about them. That is the trouble for physicalism.</quote></hi>
 	Jackson does not tell us what she said. Only what she did not say:  <hi
-	rend="italic"><quote>ho, hum.</quote></hi></p>
+	rend="italic"><quote>ho, hum</quote></hi>  <ref
+	target="#frankjackson1986">(Jackson 1986: 291).</ref></p>
 
 	
       </div>
@@ -188,17 +188,17 @@
 
 	<p rend='noindentfirst'><ref
 	target="#derkpereboom1994">Pereboom (1994)</ref> discusses
-	both <ref target="#thomasnagel1974">Nagel (1974)</ref> and
-	<ref target="#frankjackson1986">Jackson (1986)</ref>
-	treatments of the knowledge argument. More specifically,
-	Pereboom (op cit.) starts with <ref
+	both <ref target="#thomasnagel1974">Nagel's (1974)</ref> and
+	<ref target="#frankjackson1986">Jackson's (1986)</ref>
+	treatments of the knowledge argument (I'll concentrate on the latter, though).
+	More specifically, Pereboom (1994) starts with <ref
 	target="#paulchurchland1985">Churchland (1985).</ref> <ref
 	target="#derkpereboom1994">Pereboom (1994: 316)</ref> is
 	convinced that this <hi
 	rend='italic'><quote xml:id="thatstrategy">strategy can be enhanced to resolve the
 	controversy in favor of the materialist.</quote></hi></p>
 
-	<p>Before attacking the argument, he presents how Mary's Room
+	<p>Before attacking <ref target="#frankjackson1986">Jackson's (1986)</ref> argument, he presents how Mary's Room
 	could be formalised. Quoting verbatim from <ref
 	target="#derkpereboom1994">Pereboom (1994: 318):</ref></p>
 
@@ -228,7 +228,7 @@ know about the nature of human sensations and their properties.</p>
 	beings,</hi> see <ref target="#label_1">(1).</ref></p>
 	<p>Pereboom is much more vague, see his premise <ref
 	target="#pereboomsmary1">(i).</ref> For him, Mary just
-	knows everything physical about humans in general.</p>
+	knows everything physical about  <hi rend="bold">humans in general.</hi></p>
 
 	<p>The difference between the consequents are different as
 	well. Jackson's Mary realises, upon her release, that there
@@ -241,14 +241,15 @@ know about the nature of human sensations and their properties.</p>
 	<p>Clearly, Jackson's views have evolved over time. It seems
 	that <ref target="#frankjackson1986">Jackson (1986),</ref>
 	successfully refutes <ref
-	target="#paulchurchland1985">Churchland (1985),</ref> or he
-	that is what he claimed. Jackson is then using a new release
+	target="#paulchurchland1985">Churchland (1985),</ref> or
+	that is what he claimed. Jackson is using a new release
 	of the knowledge argument.
 	<ref target="#derkpereboom1994">Pereboom's (1994)</ref> objective
 	was to give support to Churchland, but however I read Pereboom
-	I cannot see that he succeeds. Basically, because he tries to
-	defeat the knowledge argument using minor variation of the
-	already refuted argument.</p>
+	I cannot see that he succeeds. Basically, he tries to
+	defeat the previous version of knowledge argument.
+	He tries to do so using minor variations of an
+	argument Jackson had already refuted several years earlier.</p>
 
 	<p><ref
 	target="#derkpereboom1994">Pereboom (1994: 316)</ref> claims that  Jackson implicitly assumes that <hi
@@ -278,11 +279,9 @@ know about the nature of human sensations and their properties.</p>
 	<head>Conclusions</head>
 	<p rend='noindentfirst'><ref target="#ianravenscroft2005">Ravenscroft (2005: 172)</ref>
 	reached a similar conclusion.
-	He points out that Jackson's (op cit.) description of Mary's lack of knowledge as a lack of understanding of what others
-	knew about the visual cues of red tomatoes,
-	Jackson evaded the objections to his argument described above.</p>
-
-	<p>He evaded not only <ref target="#paulchurchland1985">Churchland (1985),</ref>
+	He points out that Jackson's (op cit.) describes Mary's lack of knowledge as a lack of understanding of what others knew about the visual cues of ripe red tomatoes.
+	Jackson evaded the objections to his argument.
+	He evaded not only <ref target="#paulchurchland1985">Churchland (1985),</ref>
 	but also <ref target="#derkpereboom1994">Pereboom (1994).</ref> Basically, Pereboom  refer to Jackson (1986) but does not really respond to it. Pereboom's paper is basically about earlier versions of the knowledge argument.</p>
 
 	<p><ref target="#jjcsmart1963">Smart (1963: 651)</ref> wrote
@@ -293,7 +292,7 @@ know about the nature of human sensations and their properties.</p>
 	is increasingly giving us a viewpoint whereby organisms are
 	able to be seen as physico-chemical mechanisms</quote></hi>
 	<ref target="#jjcsmart1959">(Smart 1959: 142).</ref> Depending
-	on what you actually understand with physico-chemical, this
+	on what you actually understand by <soCalled>physico-chemical mechanisms</soCalled>, this
 	might be seen as an improvement from billiard-ball
 	physics. From my point of view it seems only marginally so. He
 	then continues: <hi rend="italic"><quote>it seems that even
@@ -327,8 +326,8 @@ know about the nature of human sensations and their properties.</p>
 	explaining the problems in the reduced theory.</p>
 
 	<p>Think of physics as  <formula
-	rend="inline" notation="eqn">T sub A</formula> and what is in Mary's head when she is the first time is holding a ripe tomato in her hand <formula
-	rend="inline" notation="eqn">T sub B ,</formula> while understanding that all other people have eaten this wonderful fruit each early summer,  while she ate black-and-white ketchup.</p>
+	rend="inline" notation="eqn">T sub A</formula> and what is in Mary's head when she holds a ripe tomato in her hand <formula
+	rend="inline" notation="eqn">T sub B .</formula> She understands that all other people have eaten this wonderful fruit each early summer, while she ate black hamburgers with white bread and black-and-white ketchup.</p>
 
 	
       </div>
