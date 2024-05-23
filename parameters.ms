@@ -19,3 +19,8 @@
 .ds MONTH12 December
 .ds MO \E*[MONTH\n[mo]]
 .ds DY \*[MO] \n[dy], \n[year]
+.EQ
+delim $$
+.EN
+
+

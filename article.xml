@@ -18,7 +18,8 @@
     <front>
       <docTitle>
         <titlePart>
-          <title type="main">The knowledge argument and the colour of ripe tomatoes<note>Written as a deliverable for the course FTEA13:5 – Philosophy of Mind, which is a part of the introduction into theoretical philosophy at Lund university <ref target="https://www.fil.lu.se/kurs/FTEA13/">https://www.fil.lu.se/kurs/FTEA13/</ref></note></title>
+          <title type="main">The knowledge argument and the colour of ripe tomatoes<note>Written as a deliverable for the course FTEA13:5 – Philosophy of Mind, which is a part of the introduction into theoretical philosophy at Lund university <ref target="https://www.fil.lu.se/kurs/FTEA13/">https://www.fil.lu.se/kurs/FTEA13/.</ref>
+	  The source of this article can be found on <ref target="https://github.com/siglun/term-paper-spring-2024">https://github.com/siglun/term-paper-spring-2024.</ref></note></title>
         </titlePart>
       </docTitle>
       <docAuthor>
@@ -80,15 +81,13 @@
 	  </item>
 	  <item xml:id="label_b">
 	    <label>(B)</label>
-	    <p>Suppose that our world <hi rend="italic">W</hi> is <hi rend="bold">not completely</hi> physical.
-	    Then there is a possible world <hi rend="italic">W'</hi> which is.</p>
+	    <p>Suppose that our world <formula notation="eqn" rend="inline">W</formula> is <hi rend="bold">not completely</hi> physical.
+	    Then there is a possible world <formula notation="eqn" rend="inline">W prime</formula> which is.</p>
 	  </item>
 	  <item xml:id="label_c">
 	    <label>(C)</label>
-	    <p>Since the world <hi rend="italic">W'</hi> is completely physical,
-	    the difference between that world and our <hi
-	    rend="italic">W</hi> must be facts that cannot be
-	    expressed in a physical language <ref target="#frankjackson1986">(Jackson 1986: 291).</ref></p>
+	    <p>Since the world <formula notation="eqn" rend="inline">W prime</formula> is completely physical,
+	    the difference between that world and our <formula notation="eqn" rend="inline">W</formula>  must be facts that cannot be expressed in a physical language <ref target="#frankjackson1986">(Jackson 1986: 291).</ref></p>
 	  </item>
 	</list>
 
@@ -286,14 +285,29 @@ know about the nature of human sensations and their properties.</p>
 	but also <ref target="#derkpereboom1994">Pereboom (1994).</ref> Basically, Pereboom  refer to Jackson (1986) but does not really respond to it. Pereboom's paper is basically about earlier versions of the knowledge argument.</p>
 
 	<p>
-	  <ref target="#jjcsmart1963">Smart (1963: 651)</ref> wrote that he does
-	  <hi rend="italic"><quote>not hold materialism to be wedded to the billiard-ball physics of the nineteenth century,</quote></hi> which I think is good.
-	  A few years earlier he wrote, however, that <hi rend="italic"><quote>science is increasingly giving us a viewpoint whereby organisms are able to be seen as physico-chemical mechanisms: it seems that even the behavior of man
-himself will one day be explicable in mechanistic terms.</quote></hi>
+	  <ref target="#jjcsmart1963">Smart (1963: 651)</ref> wrote
+	  that he does <hi rend="italic"><quote>not hold materialism
+	  to be wedded to the billiard-ball physics of the nineteenth
+	  century.</quote></hi> I think that is good.  However, a few
+	  years earlier he wrote that <hi rend="italic"><quote>science
+	  is increasingly giving us a viewpoint whereby organisms are
+	  able to be seen as physico-chemical mechanisms.</quote></hi> (<ref target="#jjcsmart1959">Smart 1959: 142)</ref>
+	  Depending on what you actually understand with
+	  physico-chemical, this might be seen as an improvement from
+	  billiard-ball physics. From my point of view it seems only
+	  marginally so. He then continues: <hi
+	  rend="italic"><quote>it seems that even the behavior of man
+	  himself will one day be explicable in mechanistic terms.</quote></hi>
+	  Who, if anyone, doubts that?
+	  To me the question is not whether behaviours should be described mechanistically.
+	  The question is what mechanisms should be used when doing so.
 	  
+	  <ref target="#reductionism">Brigandt &amp; Love (2023)</ref> mention that in late 20th centry and  early 21st century philosophy one of the core problems has been if <hi rend="italic"><quote>classical genetics can be reduced to molecular genetics.</quote></hi> 
+	</p>
 
+	<p><ref target="#reductionism">Brigandt &amp; Love (2023)</ref> provide a nice explanation of the theory of theory reduction, and from my view they (and references therein) save philosophy from a continuous silliness inflation. A theory reduction occurs when we have two theories <formula rend="inline" notation="eqn">T sub A</formula> and <formula notation="eqn" rend="inline">T sub B .</formula></p>
 
-
+	<p>The theory <formula rend="inline" notation="eqn">T sub A</formula> is said said to reduce theory <formula notation="eqn" rend="inline">T sub B </formula> if the former entails the latter. This implies that the former theory should be capable of explaining 
 	</p>
 
 	
@@ -379,6 +393,12 @@ himself will one day be explicable in mechanistic terms.</quote></hi>
 	    <ref target="https://www.jstor.org/stable/2023512">https://doi.org/10.2307/2023512</ref>
 	  </bibl>
 	</listBibl>
+	<!--
+
+SELECTION OF MATERIALS FOR CASE-BUILDING BY LARVAE OF
+CADDIS FLIES (TRICHOPTERA)
+By HILMY M. HANNA
+	-->
       </div>
       
     </body>
