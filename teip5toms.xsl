@@ -50,9 +50,8 @@ Notes
 .AB
 <xsl:apply-templates select="t:div[@type='abstract']"/>
 .AE
-.RD
+.rj
 \*[DY]
-.DE
 </xsl:template>
 
 <xsl:template match="t:body">
@@ -132,7 +131,7 @@ Notes
 <xsl:template match="t:cit/t:quote">
 <xsl:text>
 .LP
-.sp 0.75c
+.sp 1.5c
 .ps 32
 \(lq
 .ps
@@ -151,7 +150,7 @@ Notes
 
 <xsl:template match="t:quote"><xsl:if test="@xml:id">  
 .pdfhref M -N <xsl:value-of select="@xml:id"/><xsl:text>
-</xsl:text></xsl:if><xsl:text> \(lq</xsl:text><xsl:apply-templates/><xsl:text>\(rq </xsl:text><xsl:if test="@rend = 'space'"><xsl:text> </xsl:text></xsl:if></xsl:template>
+</xsl:text></xsl:if><xsl:text>\(lq</xsl:text><xsl:apply-templates/><xsl:text>\(rq </xsl:text><xsl:if test="@rend = 'space'"><xsl:text> </xsl:text></xsl:if></xsl:template>
 
 <xsl:template match="t:head">
 .SH
