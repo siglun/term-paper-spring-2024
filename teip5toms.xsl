@@ -128,10 +128,30 @@ Notes
 <xsl:apply-templates/>
 </xsl:template>
 
+<xsl:template match="t:cit"><xsl:apply-templates/></xsl:template>
+<xsl:template match="t:cit/t:quote">
+<xsl:text>
+.LP
+.sp 0.75c
+.ps 32
+\(lq
+.ps
+.sp -0.5c
+</xsl:text>
+<xsl:apply-templates/>
+<xsl:text>
+.LP
+.ps 32
+.rj 1
+\(rq
+.ps
+.sp -0.25c
+</xsl:text>
+</xsl:template>
+
 <xsl:template match="t:quote"><xsl:if test="@xml:id">  
 .pdfhref M -N <xsl:value-of select="@xml:id"/><xsl:text>
-</xsl:text></xsl:if><xsl:text>
-\(lq</xsl:text><xsl:apply-templates/><xsl:text>\(rq </xsl:text><xsl:if test="@rend = 'space'"><xsl:text> </xsl:text></xsl:if></xsl:template>
+</xsl:text></xsl:if><xsl:text> \(lq</xsl:text><xsl:apply-templates/><xsl:text>\(rq </xsl:text><xsl:if test="@rend = 'space'"><xsl:text> </xsl:text></xsl:if></xsl:template>
 
 <xsl:template match="t:head">
 .SH

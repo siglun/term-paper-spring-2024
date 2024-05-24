@@ -194,14 +194,14 @@
 	More specifically, Pereboom (1994) starts with <ref
 	target="#paulchurchland1985">Churchland (1985).</ref> <ref
 	target="#derkpereboom1994">Pereboom (1994: 316)</ref> is
-	convinced that this <hi
+	convinced that his <hi
 	rend='italic'><quote xml:id="thatstrategy">strategy can be enhanced to resolve the
 	controversy in favor of the materialist.</quote></hi></p>
 
 	<p>Before attacking <ref target="#frankjackson1986">Jackson's (1986)</ref> argument, he presents how Mary's Room
 	could be formalised. Quoting verbatim from <ref
 	target="#derkpereboom1994">Pereboom (1994: 318):</ref></p>
-
+	<cit><quote>
 	<list type="syllogism">
 	  <item xml:id="pereboomsmary1">
 	    <label>(i)</label>
@@ -210,7 +210,7 @@
 	  <item xml:id="pereboomsmary2">
 	    <label>(ii)</label>
 	    <p>Mary (while in the room) does not know everything there is to
-know about the nature of human sensations and their properties.</p>
+	    know about the nature of human sensations and their properties.</p>
 	  </item>
 	</list>
 	<p rend='noindentfirst'>Therefore</p>
@@ -220,7 +220,7 @@ know about the nature of human sensations and their properties.</p>
 	    <p>There is information about human sensations that is not physical,
 	  and thus human sensations are not completely physical.</p></item>
 	</list>
-
+	</quote></cit>
 	<p rend='noindentfirst'>The differences between Jackson's and
 	Pereboom's first premises could hardly be larger.
 	Jackson is focusing on that Mary knows everything that can be formulated in

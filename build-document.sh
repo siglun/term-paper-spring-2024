@@ -14,7 +14,7 @@ source "parameters.sh"
 
 # ./to-markdown.sh
 
-xsltproc teip5toms.xsl  article.xml | grep -v '^$' >  article.ms
+xsltproc teip5toms.xsl  article.xml | grep -vP '^\s*$' >  article.ms
 groff -U -e  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms  article.ms >  article.pdf
 
 echo Number of words: 
