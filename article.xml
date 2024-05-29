@@ -150,7 +150,7 @@
 	  </item>
 	  <item xml:id="label_2">
 	    <label>(2)</label>
-	    <p>From <ref target="#label_b">(B):</ref>
+	    <p>From <ref target="#label_b">(C) above:</ref>
 	    <quote xml:id="marydoesntknowseverythingaboutothers">Mary (before
 	    her release) does not know everything there is to know
 	    about other people (because she learns something about
@@ -162,8 +162,7 @@
 	<list type="syllogism">
 	  <item xml:id="label_3">
 	    <label>(3)</label>
-	    <p><ref target="#label_c">(C):</ref>
-	    <quote xml:id="therearestuffescapingthephysicalists">There are
+	    <p><quote xml:id="therearestuffescapingthephysicalists">There are
 	    truths about other people (and herself) which escape the
 	    physicalist story.</quote> <ref target="#frankjackson1986">(Jackson
 	    1986: 293).</ref></p>
