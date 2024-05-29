@@ -50,8 +50,6 @@ Notes
 .AB
 <xsl:apply-templates select="t:div[@type='abstract']"/>
 .AE
-.rj
-\*[DY]
 </xsl:template>
 
 <xsl:template match="t:body">
