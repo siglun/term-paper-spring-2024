@@ -15,7 +15,11 @@ source "parameters.sh"
 # ./to-markdown.sh
 
 xsltproc teip5toms.xsl  article.xml | grep -vP '^\s*$' >  article.ms
-groff -U -e  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms  article.ms >  article.pdf
+groff -U -e  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms coverpage.ms >  coverpage.pdf
+
+groff -U -e  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms article.ms >  article.pdf
+
+pdfunite coverpage.pdf article.pdf sigfrid_lundberg.pdf
 
 echo Number of words: 
 perl -ne 's/<[^>]+>/ /g;print;' article.xml  | wc -w
