@@ -25,7 +25,7 @@ xsltproc teip5-to-termpaper.xsl article.xml | grep -vP '^\s*$' >  term-paper.ms
 groff -U -e  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms term-paper.ms >  term-paper.pdf
 groff -U -e  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms coverpage.ms >  coverpage.pdf
 
-gs -sDEVICE=pdfwrite -dBATCH -dNOPAUSE -sOutputFile="sigfrid_lundberg.pdf" coverpage.pdf term-paper.pdf
+gs -q -sDEVICE=pdfwrite -dBATCH -dNOPAUSE -sOutputFile="sigfrid_lundberg.pdf" coverpage.pdf term-paper.pdf
 
 
 echo Number of words: 
