@@ -129,7 +129,7 @@ Notes
 <xsl:template match="t:cit/t:quote">
 <xsl:text>
 .LP
-.sp 1.5c
+.sp 0.5c
 .ps 32
 \(lq
 .ps
