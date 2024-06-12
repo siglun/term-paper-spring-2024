@@ -184,7 +184,7 @@ Notes
 </xsl:template>
 
 <xsl:template match="t:ref[contains(substring(@target,1,1),'#')]">
-.pdfhref L -D <xsl:value-of select="substring-after(@target,'#')"/><xsl:text> </xsl:text><xsl:apply-templates/> <xsl:text>
+.pdfhref L -D <xsl:value-of select="substring-after(@target,'#')"/><xsl:text> </xsl:text>"<xsl:apply-templates/>" <xsl:text>
 \&amp;</xsl:text></xsl:template>
 
 <xsl:template match="t:ref">
@@ -217,7 +217,7 @@ Notes
 <xsl:for-each select="t:item"><xsl:if test="@xml:id">  
 .pdfhref M -N <xsl:value-of select="@xml:id"/><xsl:text>
 </xsl:text></xsl:if>
-.IP <xsl:value-of select="t:label"/><xsl:text>
+.IP <xsl:apply-templates select="t:label"/><xsl:text>
 </xsl:text><xsl:apply-templates select="t:p/node()"/>
 </xsl:for-each>
 </xsl:template>

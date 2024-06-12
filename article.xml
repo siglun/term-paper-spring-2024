@@ -203,11 +203,11 @@
 	<cit><quote>
 	<list type="syllogism">
 	  <item xml:id="pereboomsmary1">
-	    <label>(1)′</label>
+	    <label><formula notation="eqn" rend="inline">(1) prime</formula></label>
 	    <p>Mary (while in the room) knows everything physical there is to
 	  know about human beings.</p></item>
 	  <item xml:id="pereboomsmary2">
-	    <label>(2)′</label>
+	    <label><formula notation="eqn" rend="inline">(2) prime</formula></label>
 	    <p>Mary (while in the room) does not know everything there is to
 	    know about the nature of human sensations and their properties.</p>
 	  </item>
@@ -215,7 +215,7 @@
 	<p rend='noindentfirst'>Therefore</p>
 	<list type="syllogism">
 	  <item xml:id="pereboomsmary3">
-	    <label>(3)′</label>
+	    <label><formula notation="eqn" rend="inline">(3) prime</formula></label>
 	    <p>There is information about human sensations that is not physical,
 	  and thus human sensations are not completely physical.</p></item>
 	</list>
@@ -226,14 +226,14 @@
 	beings</hi> that can be formulated in
 	a <hi rend="bold">physical language,</hi> see <ref target="#label_1">(1).</ref></p>
 	<p>Pereboom is much more vague, see his premise <ref
-	target="#pereboomsmary1">(1)′.</ref> For him, Mary just
+	target="#pereboomsmary1"><formula notation="eqn" rend="inline">(1) prime</formula>.</ref> For him, Mary just
 	knows everything physical about  <hi rend="bold">humans in general.</hi></p>
 
 	<p>The difference between the consequents are different as
 	well. Jackson's Mary realises, upon her release, that there
 	were important things she did not know about other people's
 	perceptions. See <ref target="#label_3">(3).</ref>
-	Pereboom's consequent <ref target="#pereboomsmary3">(3)′</ref> just
+	Pereboom's consequent <ref target="#pereboomsmary3"><formula notation="eqn" rend="inline">(3) prime</formula></ref> just
 	concludes that there is information about human sensations
 	that are not completely physical.</p>
 
@@ -267,7 +267,7 @@
 	knowledge of everything physical related to human beings, as
 	<ref
 	    target="#derkpereboom1994">Pereboom (1994: 320)</ref> puts it (cf. <ref
-	    target="#pereboomsmary1">(1)′</ref> above),
+	    target="#pereboomsmary1"><formula notation="eqn" rend="inline">(1) prime</formula></ref> above),
 	would be able to gain important knowledge about others perception through inter-subjective accessibility.
 	Since the Mary's room narrative is about what happens after she has left the confinement,
 	I cannot see that this is relevant.</p>
