@@ -14,13 +14,18 @@ source "parameters.sh"
 
 # ./to-markdown.sh
 
+# Generic article
+
 xsltproc teip5toms.xsl  article.xml | grep -vP '^\s*$' >  article.ms
-
-groff -U -e  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms coverpage.ms >  coverpage.pdf
-
 groff -U -e  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms article.ms >  article.pdf
 
-gs -sDEVICE=pdfwrite -dBATCH -dNOPAUSE -sOutputFile="sigfrid_lundberg.pdf" coverpage.pdf article.pdf
+# Termpaper
+
+xsltproc teip5-to-termpaper.xsl article.xml | grep -vP '^\s*$' >  term-paper.ms
+groff -U -e  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms term-paper.ms >  term-paper.pdf
+groff -U -e  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms coverpage.ms >  coverpage.pdf
+
+gs -sDEVICE=pdfwrite -dBATCH -dNOPAUSE -sOutputFile="sigfrid_lundberg.pdf" coverpage.pdf term-paper.pdf
 
 
 echo Number of words: 
