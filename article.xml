@@ -69,7 +69,7 @@
 	<hi rend="italic">the knowledge argument</hi>
 	<ref target="#ianravenscroft2005">(Ravenscroft 2005: 171).</ref>
 	Formalising <ref
-	target="#frankjackson1986">Jackson (1986: 291)</ref> a bit further:</p>
+	target="#frankjackson1986">Jackson's (1986: 291)</ref> argument:</p>
 
 	<list xml:id="jacksonsargument"  type="syllogism">
 	  <item xml:id="label_a">
@@ -128,7 +128,7 @@
 	false.
 	Or so claims <ref target="#frankjackson1986">Jackson (1986).</ref></p>
 
-	<p>Eventually she is released from her confinement,
+	<p>Eventually Mary is released from her confinement,
 	and the questions are:
 	What did she learn when she met the real world?
 	In particular, what did she say when she first saw a ripe red tomato?</p>
@@ -222,12 +222,11 @@
 	Pereboom's first premises could hardly be larger.
 	Jackson is focusing on that Mary knows everything about <hi rend="bold">other human
 	beings</hi> that can be formulated in
-	a <hi rend="bold">physical language,</hi> see <ref target="#label_1">(1).</ref></p>
-	<p>Pereboom is much more vague, see his premise <ref
+	a <hi rend="bold">physical language,</hi> see <ref target="#label_1">(1).</ref>
+	Pereboom is much more vague, see his premise <ref
 	target="#pereboomsmary1"><formula notation="eqn" rend="inline">(1) prime</formula>.</ref> For him, Mary just
-	knows everything physical about  <hi rend="bold">humans in general.</hi></p>
-
-	<p>The difference between the consequents are different as
+	knows everything physical about  <hi rend="bold">humans in general.</hi>
+	The difference between the consequents are different as
 	well. Jackson's Mary realises, upon her release, that there
 	were important things she did not know about other people's
 	perceptions. See <ref target="#label_3">(3).</ref>
@@ -269,19 +268,26 @@
 	would be able to gain important knowledge about others perception through inter-subjective accessibility.
 	Since the Mary's room narrative is about what happens after she has left the confinement,
 	I cannot see that this is relevant.</p>
+
+	<p><ref target="#ianravenscroft2005">Ravenscroft (2005:
+	172)</ref> reached a similar conclusion, albeit he does not
+	say that Jackson is right.  He points out that Jackson's (op
+	cit.) describes Mary's lack of knowledge as a lack of
+	understanding of what others knew about the visual cues of
+	ripe red tomatoes.  Jackson evaded the objections to his
+	argument.  He evaded not only <ref
+	target="#paulchurchland1985">Churchland (1985),</ref> but also
+	<ref target="#derkpereboom1994">Pereboom (1994).</ref>
+	Basically, Pereboom refer to Jackson (1986) but does not
+	really respond to it. Pereboom's paper is basically about
+	earlier versions of the knowledge argument.</p >
 	
       </div>
       
       <div xml:id="conclusions">
 	<head>Conclusions</head>
-	<p rend='noindentfirst'><ref target="#ianravenscroft2005">Ravenscroft (2005: 172)</ref>
-	reached a similar conclusion, albeit he does not say that Jackson is right.
-	He points out that Jackson's (op cit.) describes Mary's lack of knowledge as a lack of understanding of what others knew about the visual cues of ripe red tomatoes.
-	Jackson evaded the objections to his argument.
-	He evaded not only <ref target="#paulchurchland1985">Churchland (1985),</ref>
-	but also <ref target="#derkpereboom1994">Pereboom (1994).</ref> Basically, Pereboom  refer to Jackson (1986) but does not really respond to it. Pereboom's paper is basically about earlier versions of the knowledge argument.</p>
 
-	<p><ref target="#jjcsmart1963">Smart (1963: 651)</ref> wrote
+	<p  rend='noindentfirst'><ref target="#jjcsmart1963">Smart (1963: 651)</ref> wrote
 	that he does <hi rend="italic"><quote>not hold materialism to
 	be wedded to the billiard-ball physics of the nineteenth
 	century.</quote></hi> I think that is good.  However, a few
@@ -322,9 +328,17 @@
 	latter. This implies that the reducing theory should be capable of
 	explaining the problems addressed in the reduced theory.</p>
 
-	<p>Think of physics as  <formula
-	rend="inline" notation="eqn">T sub A</formula> and what is in Mary's head when she holds a ripe tomato in her hand as theory <formula
-	rend="inline" notation="eqn">T sub B .</formula> She understands that all other people have eaten this wonderful fruit each early summer, while she ate black hamburgers with white bread and black-and-white ketchup.</p>
+
+	<p>Think of physics as
+	<formula rend="inline" notation="eqn">T sub A </formula>
+	and what is in Mary's head when she holds a
+	ripe tomato in her hand as theory
+	<formula rend="inline" notation="eqn">T sub B .</formula>
+	She understands that all other people have eaten this wonderful fruit each early
+	summer, while she ate black hamburgers with white bread and
+	black-and-white ketchup.
+	That experience cannot be experience cannot be described in a physical language
+	according to <ref target="#frankjackson1986">Jackson (1986).</ref></p>
 
 	
       </div>
