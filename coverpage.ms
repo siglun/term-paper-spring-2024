@@ -1,7 +1,7 @@
 .LP
 .rj
 \*[DY]
-.sp 4c
+.sp 5c
 .LD
 .ps 18
 .vs 24
@@ -9,8 +9,9 @@
 of ripe red tomatoes
 .DE
 .LD
-.ps 18
-.vs 24
+.sp 1c
+.ps 16
+.vs 22
 Sigfrid Lundberg
 .pdfhref W -D  mailto:sigfrid@sigfrid-lundberg.se sigfrid@sigfrid-lundberg.se
 .pdfhref W -D  https://www.fil.lu.se/kurs/FTEA13/ FTEA13:5 – Philosophy of Mind
@@ -41,8 +42,8 @@ Written as a deliverable for the course FTEA13:5 – Philosophy of Mind, which i
 The source code of this text can be found on
 .pdfhref W -D https://github.com/siglun/term-paper-spring-2024 https://github.com/siglun/term-paper-spring-2024
 ..
-. OH ''''
-. EH ''''
+.OH ''''
+.EH ''''
 .bp
 .LP
 
