@@ -1,7 +1,7 @@
 .LP
 .rj
 \*[DY]
-.sp 2c
+.sp 4c
 .LD
 .ps 18
 .vs 24
